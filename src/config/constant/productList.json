@@ -1,130 +1,130 @@
 [
   {
     "id": 1,
-    "name": "Produk 1",
-    "price": 50.0,
-    "image": "https://source.unsplash.com/800x600/?product1",
+    "name": "iPhone 15",
+    "price": 13599999,
+    "image": "https://source.unsplash.com/800x600/?iphone15",
     "stock": 10,
-    "description": "Deskripsi Produk 1"
+    "description": "Deskripsi iPhone 15"
   },
   {
     "id": 2,
-    "name": "Produk 2",
-    "price": 60.0,
-    "image": "https://source.unsplash.com/800x600/?product2",
+    "name": "MacBook Pro",
+    "price": 6523499,
+    "image": "https://source.unsplash.com/800x600/?macbookpro",
     "stock": 15,
-    "description": "Deskripsi Produk 2"
+    "description": "Deskripsi MacBook Pro"
   },
   {
     "id": 3,
-    "name": "Produk 3",
-    "price": 70.0,
-    "image": "https://source.unsplash.com/800x600/?product3",
+    "name": "iPad Air",
+    "price": 7899999,
+    "image": "https://source.unsplash.com/800x600/?ipadair",
     "stock": 20,
-    "description": "Deskripsi Produk 3"
+    "description": "Deskripsi iPad Air"
   },
   {
     "id": 4,
-    "name": "Produk 4",
-    "price": 80.0,
-    "image": "https://source.unsplash.com/800x600/?product4",
+    "name": "Apple Watch Series 7",
+    "price": 6499000,
+    "image": "https://source.unsplash.com/800x600/?applewatch",
     "stock": 25,
-    "description": "Deskripsi Produk 4"
+    "description": "Deskripsi Apple Watch Series 7"
   },
   {
     "id": 5,
-    "name": "Produk 5",
-    "price": 90.0,
-    "image": "https://source.unsplash.com/800x600/?product5",
+    "name": "AirPods Pro",
+    "price": 5299999,
+    "image": "https://source.unsplash.com/800x600/?airpodspro",
     "stock": 30,
-    "description": "Deskripsi Produk 5"
+    "description": "Deskripsi AirPods Pro"
   },
   {
     "id": 6,
-    "name": "Produk 6",
-    "price": 100.0,
-    "image": "https://source.unsplash.com/800x600/?product6",
+    "name": "iMac",
+    "price": 7897999,
+    "image": "https://source.unsplash.com/800x600/?imac",
     "stock": 35,
-    "description": "Deskripsi Produk 6"
+    "description": "Deskripsi iMac"
   },
   {
     "id": 7,
-    "name": "Produk 7",
-    "price": 110.0,
-    "image": "https://source.unsplash.com/800x600/?product7",
+    "name": "Mac Mini",
+    "price": 8999999,
+    "image": "https://source.unsplash.com/800x600/?macmini",
     "stock": 40,
-    "description": "Deskripsi Produk 7"
+    "description": "Deskripsi Mac Mini"
   },
   {
     "id": 8,
-    "name": "Produk 8",
-    "price": 120.0,
-    "image": "https://source.unsplash.com/800x600/?product8",
+    "name": "HomePod Mini",
+    "price": 7995000,
+    "image": "https://source.unsplash.com/800x600/?homepodmini",
     "stock": 45,
-    "description": "Deskripsi Produk 8"
+    "description": "Deskripsi HomePod Mini"
   },
   {
     "id": 9,
-    "name": "Produk 9",
-    "price": 130.0,
-    "image": "https://source.unsplash.com/800x600/?product9",
+    "name": "Apple Pencil 2nd Gen",
+    "price": 4191000,
+    "image": "https://source.unsplash.com/800x600/?applepencil",
     "stock": 50,
-    "description": "Deskripsi Produk 9"
+    "description": "Deskripsi Apple Pencil 2nd Gen"
   },
   {
     "id": 10,
-    "name": "Produk 10",
-    "price": 140.0,
-    "image": "https://source.unsplash.com/800x600/?product10",
+    "name": "Magic Keyboard",
+    "price": 7689000,
+    "image": "https://source.unsplash.com/800x600/?magickb",
     "stock": 55,
-    "description": "Deskripsi Produk 10"
+    "description": "Deskripsi Magic Keyboard"
   },
   {
     "id": 11,
-    "name": "Produk 11",
-    "price": 150.0,
-    "image": "https://source.unsplash.com/800x600/?product11",
+    "name": "Apple TV 4K",
+    "price": 5948000,
+    "image": "https://source.unsplash.com/800x600/?appletv",
     "stock": 60,
-    "description": "Deskripsi Produk 11"
+    "description": "Deskripsi Apple TV 4K"
   },
   {
     "id": 12,
-    "name": "Produk 12",
-    "price": 160.0,
-    "image": "https://source.unsplash.com/800x600/?product12",
+    "name": "Mac Pro",
+    "price": 9820000,
+    "image": "https://source.unsplash.com/800x600/?macpro",
     "stock": 65,
-    "description": "Deskripsi Produk 12"
+    "description": "Deskripsi Mac Pro"
   },
   {
     "id": 13,
-    "name": "Produk 13",
-    "price": 170.0,
-    "image": "https://source.unsplash.com/800x600/?product13",
+    "name": "Apple Thunderbolt Display",
+    "price": 6887000,
+    "image": "https://source.unsplash.com/800x600/?thunderboltdisplay",
     "stock": 70,
-    "description": "Deskripsi Produk 13"
+    "description": "Deskripsi Thunderbolt Display"
   },
   {
     "id": 14,
-    "name": "Produk 14",
-    "price": 180.0,
-    "image": "https://source.unsplash.com/800x600/?product14",
+    "name": "Apple Smart Keyboard Folio",
+    "price": 7489000,
+    "image": "https://source.unsplash.com/800x600/?smartkeyboardfolio",
     "stock": 75,
-    "description": "Deskripsi Produk 14"
+    "description": "Deskripsi Smart Keyboard Folio"
   },
   {
     "id": 15,
-    "name": "Produk 15",
-    "price": 190.0,
-    "image": "https://source.unsplash.com/800x600/?product15",
+    "name": "Apple AirTag",
+    "price": 5934000,
+    "image": "https://source.unsplash.com/800x600/?airtag",
     "stock": 80,
-    "description": "Deskripsi Produk 15"
+    "description": "Deskripsi AirTag"
   },
   {
     "id": 16,
-    "name": "Produk 16",
-    "price": 200.0,
-    "image": "https://source.unsplash.com/800x600/?product16",
+    "name": "Apple Pro Display XDR",
+    "price": 7530000,
+    "image": "https://source.unsplash.com/800x600/?prodisplayxdr",
     "stock": 85,
-    "description": "Deskripsi Produk 16"
+    "description": "Deskripsi Pro Display XDR"
   }
 ]
