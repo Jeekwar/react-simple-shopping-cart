@@ -145,8 +145,8 @@ const ProductList: React.FC<any> = () => {
                 withBorder
                 p={rem(12)}
               >
-                <Card.Section>
-                  <Image src={"/assets/img/iphone15BackgroundRemoved.png"} />
+                <Card.Section mih={rem(120)}>
+                  <Image fallbackSrc={item.image} fit="cover" />
                 </Card.Section>
                 <p>{item.name}</p>
                 <Text fw={600}>{` ${IDR.format(item.price)}`}</Text>
