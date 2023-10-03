@@ -33,3 +33,22 @@ npm run build
 # or
 yarn build
 ```
+
+## Dependencies
+
+UI Framework
+
+- Mantine [https://mantine.dev/]
+
+Indexed DB
+
+- DixieJs [https://dexie.org/]
+
+State management
+
+- RecoilJs [https://recoiljs.org/]
+- Jotai [https://recoiljs.org/]
+
+Css Library
+
+- tailwind [https://tailwindcss.com/]
