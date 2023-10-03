@@ -2,7 +2,16 @@ import { useEffect, useMemo, useState } from "react";
 import Style from "./ProductList.module.scss";
 import { Carts, Product } from "@/config/interfaces";
 import { FaShoppingCart } from "react-icons/fa";
-import { Box, Button, Card, SimpleGrid, Text, rem } from "@mantine/core";
+import {
+  Box,
+  Button,
+  Card,
+  Flex,
+  SimpleGrid,
+  Stack,
+  Text,
+  rem,
+} from "@mantine/core";
 import { Image } from "@mantine/core";
 import { useRecoilState } from "recoil";
 import { cartDataAtom } from "@/store/cartStore";
@@ -145,21 +154,40 @@ const ProductList: React.FC<any> = () => {
                 withBorder
                 p={rem(12)}
               >
-                <Card.Section mih={rem(120)}>
-                  <Image fallbackSrc={item.image} fit="cover" />
-                </Card.Section>
-                <p>{item.name}</p>
-                <Text fw={600}>{` ${IDR.format(item.price)}`}</Text>
-                <Button
-                  color="orange.5"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    addToCart(item);
-                  }}
-                  disabled={item.stock <= 0}
+                <Card.Section
+                  mih={{ base: rem(40), md: rem(180), lg: rem(240) }}
                 >
-                  Add to Cart
-                </Button>
+                  <Image
+                    h={{ base: rem(140), md: rem(180), lg: rem(240) }}
+                    fallbackSrc={item.image}
+                    fit="cover"
+                  />
+                </Card.Section>
+                <Flex
+                  style={{ flexGrow: 1 }}
+                  w={"100%"}
+                  direction={"column"}
+                  justify={"space-between"}
+                  gap={rem(12)}
+                >
+                  <Stack justify="space-between" style={{ flexGrow: 1 }}>
+                    <Text>{item.name}</Text>
+                    <Text fw={600}>{` ${IDR.format(item.price)}`}</Text>
+                  </Stack>
+                  <Box>
+                    <Button
+                      fullWidth
+                      color="orange.5"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        addToCart(item);
+                      }}
+                      disabled={item.stock <= 0}
+                    >
+                      Add to Cart
+                    </Button>
+                  </Box>
+                </Flex>
               </Card>
             );
           })}
