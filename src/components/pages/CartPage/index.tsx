@@ -130,13 +130,14 @@ const CartPage: React.FC = () => {
             return (
               <Box key={item.id} px={{ base: "xs", md: "xl", lg: rem(48) }}>
                 <Divider />
-                <Flex justify={"space-between"} px={rem(24)}>
-                  <Flex style={{ alignItems: "center" }}>
-                    <Box>
-                      <Image
-                        src={"/assets/img/iphone15BackgroundRemoved.png"}
-                        h={80}
-                      />
+                <Flex
+                  justify={"space-between"}
+                  px={{ base: rem(0), md: rem(24) }}
+                  gap={rem(12)}
+                >
+                  <Flex style={{ alignItems: "center" }} gap={rem(8)}>
+                    <Box py={rem(6)}>
+                      <Image src={item.image} h={80} w={80} />
                     </Box>
                     <Stack gap={"xs"}>
                       <Text style={{ color: "white" }} fs={"sm"} fw={600}>

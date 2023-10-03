@@ -25,7 +25,7 @@ const Header = () => {
           });
         }}
       />
-      <Indicator disabled={cart.length < 1}>
+      <Indicator disabled={cart.length < 1} display={"flex"}>
         <ActionIcon
           variant="subtle"
           aria-label="Settings"
